@@ -459,16 +459,16 @@ export function getProductImage(input?: string): ProductImageMeta | null {
   if (clean.includes('ucjv330')) {
     return OFFICIAL_PRODUCT_IMAGES.find(p => p.modelName.includes('UCJV330')) || null;
   }
-  if (clean.includes('ujv200')) {
+  if (clean.includes('ujv200') || clean.includes('uv-roll-to-roll-180') || clean.includes('roll to roll 1.8') || clean.includes('roll-to-roll 1.8')) {
     return OFFICIAL_PRODUCT_IMAGES.find(p => p.modelName.includes('UJV200')) || null;
   }
-  if (clean.includes('uj330') || clean.includes('uj330h')) {
+  if (clean.includes('uj330') || clean.includes('uj330h') || clean.includes('uv-hybrid') || clean.includes('hybrid 3.2')) {
     return OFFICIAL_PRODUCT_IMAGES.find(p => p.modelName.includes('UJ330H')) || null;
   }
   if (clean.includes('sij') || clean.includes('sij-320') || clean.includes('sij320')) {
     return OFFICIAL_PRODUCT_IMAGES.find(p => p.modelName.includes('SIJ')) || null;
   }
-  if (clean.includes('ujv55')) {
+  if (clean.includes('ujv55') || clean.includes('uv-roll-to-roll-320') || clean.includes('roll to roll 3.2') || clean.includes('roll-to-roll 3.2')) {
     return OFFICIAL_PRODUCT_IMAGES.find(p => p.modelName.includes('UJV55')) || null;
   }
   if (clean.includes('ujv300dtf') || clean.includes('dtf-75')) {
@@ -483,13 +483,13 @@ export function getProductImage(input?: string): ProductImageMeta | null {
   if (clean.includes('7151')) {
     return OFFICIAL_PRODUCT_IMAGES.find(p => p.modelName.includes('7151')) || null;
   }
-  if (clean.includes('2513ex') || clean.includes('2513-ex') || (clean.includes('jfx200') && clean.includes('2513'))) {
+  if (clean.includes('2513ex') || clean.includes('2513-ex') || (clean.includes('jfx200') && clean.includes('2513')) || clean.includes('uv-flatbed-2513') || clean.includes('flatbed 2513')) {
     return OFFICIAL_PRODUCT_IMAGES.find(p => p.modelName.includes('JFX200-2513EX')) || null;
   }
   if (clean.includes('1213') || (clean.includes('jfx200') && clean.includes('1213'))) {
     return OFFICIAL_PRODUCT_IMAGES.find(p => p.modelName.includes('JFX200-1213EX')) || null;
   }
-  if (clean.includes('2531') || (clean.includes('jfx600') && clean.includes('2531'))) {
+  if (clean.includes('2531') || (clean.includes('jfx600') && clean.includes('2531')) || clean.includes('uv-flatbed-2030') || clean.includes('flatbed 2030')) {
     return OFFICIAL_PRODUCT_IMAGES.find(p => p.modelName.includes('JFX600-2531')) || null;
   }
   if (clean.includes('jfx600') || (clean.includes('jfx') && clean.includes('600'))) {

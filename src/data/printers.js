@@ -19,27 +19,98 @@ export const PRINTER_CATALOGUE = [
         description: 'Continuous roll-to-roll printing on vinyl, backlit flex, wallpaper, and synthetic films with instant cold UV LED curing.',
         models: [
           {
-            id: 'uv-roll-to-roll-320',
-            name: 'Industrial UV Roll to Roll 3.2m',
-            shortDescription: 'Heavy-chassis 3.2-meter industrial roll-to-roll UV printer for high-volume signage.',
-            description: 'Engineered for 24/7 continuous production runs of backlit flex, vinyl hoardings, canvas, wallpaper, and self-adhesive substrates with instant UV LED curing.',
-            features: ['Instant LED UV curing', 'Heavy-duty continuous feed tension roller', 'CMYK + White ink channel option', 'Specs: contact us'],
+            id: 'mimaki-ujv55-320',
+            aliases: ['uv-roll-to-roll-320'],
+            name: 'Mimaki UJV55-320',
+            series: 'UJV Series',
+            brand: 'Mimaki',
+            imageUrl: '/assets/products/mimaki/mimaki-ujv55-320.png',
+            imagePng: '/assets/products/mimaki/mimaki-ujv55-320.png',
+            imageAlt: 'Mimaki UJV55-320 Grand Format 3.2m UV LED Roll-to-Roll Printer',
+            imageCaption: 'Mimaki UJV55-320',
+            driveFileName: 'mimaki-ujv55-320.png',
+            shortDescription: 'Heavy-duty 3.2m super-wide industrial roll-to-roll UV LED printer for high-volume signage.',
+            description: 'Engineered for 24/7 continuous production runs of backlit flex, vinyl hoardings, canvas, wallpaper, and self-adhesive substrates with instant UV LED curing and twin-roll simultaneous printing.',
+            features: ['3.2m (126 in) seamless width', 'Twin-roll simultaneous printing capability', 'Built-in LED lightbox for real-time backlit proofing', 'LUS-120 high-durability stretchable UV inks'],
             specs: {
               technicalDetails: 'Specs: contact us. Call +91 99999 36706 for engineering sheet & demonstration.',
             },
-            applications: ['Outdoor Billboards', 'Backlit Signage', 'Vehicle Fleet Graphics', 'Architectural Murals'],
+            applications: ['Outdoor Billboards & Hoardings', 'Illuminated Backlit Signage', 'Vehicle Fleet Graphics', 'Architectural Murals'],
             isPopular: true
           },
           {
-            id: 'uv-roll-to-roll-180',
-            name: 'High-Precision UV Roll to Roll 1.8m',
-            shortDescription: 'Precision 1.8m roll printer for retail graphics, point-of-sale displays and wallpapers.',
-            description: 'High-resolution industrial roll printer delivering smooth tonal gradations on coated films, soft signage, and window graphics.',
-            features: ['High-resolution droplet control', 'Dual anti-static bar integration', 'Energy-efficient LED curing', 'Specs: contact us'],
+            id: 'mimaki-sij-320uv',
+            name: 'Mimaki SIJ-320UV',
+            series: 'SIJ Series',
+            brand: 'Mimaki',
+            imageUrl: '/assets/products/mimaki/mimaki-sij-320uv.png',
+            imagePng: '/assets/products/mimaki/mimaki-sij-320uv.png',
+            imageAlt: 'Mimaki SIJ-320UV High-Speed 3.2m UV LED Signage Printer',
+            imageCaption: 'Mimaki SIJ-320UV',
+            driveFileName: 'mimaki-sij-320uv.png',
+            shortDescription: 'Dedicated 3.2m wide-format UV LED printer delivering unbeatable high-density outdoor sign graphics.',
+            description: 'High-definition roll-to-roll UV printer featuring advanced pass system (MAPS4) and continuous nozzle recovery (NCU/NRS) for banding-free outdoor hoardings and backlit displays.',
+            features: ['3,200 mm print width', 'High speed up to 110 m²/hr', 'MAPS4 anti-banding technology', 'Patented NCU & NRS automatic nozzle maintenance'],
             specs: {
-              technicalDetails: 'Specs: contact us. Available with Ricoh Gen5 / Gen6 or Kyocera options upon request.',
+              technicalDetails: 'Specs: contact us. Call +91 99999 36706 for engineering sheet & demonstration.',
             },
-            applications: ['Retail Window Graphics', 'Exhibition Displays', 'Custom Wall Coverings', 'POP Signage']
+            applications: ['Highway Hoardings', 'Airport Lightboxes', 'Building Wraps', 'Window Graphics']
+          },
+          {
+            id: 'mimaki-ujv200-160',
+            aliases: ['uv-roll-to-roll-180'],
+            name: 'Mimaki UJV200-160',
+            series: 'UJV Series',
+            brand: 'Mimaki',
+            imageUrl: '/assets/products/mimaki/mimaki-ujv200-160.png',
+            imagePng: '/assets/products/mimaki/mimaki-ujv200-160.png',
+            imageAlt: 'Mimaki UJV200-160 High-Precision 1.6m UV LED Roll Printer',
+            imageCaption: 'Mimaki UJV200-160',
+            driveFileName: 'mimaki-ujv200-160.png',
+            shortDescription: 'Precision 1.6m roll UV LED printer with 35% higher throughput for retail signs and wallpapers.',
+            description: 'Delivers exceptional image quality on heat-sensitive film, wallpapers, clear films, and self-adhesive vinyl with instant LED UV cold curing.',
+            features: ['1,610 mm (63.4 in) width', '35% faster throughput over previous gen', 'LUS-170 / LUS-210 flexible UV inks', 'Cold UV LED curing for heat-sensitive vinyl'],
+            specs: {
+              technicalDetails: 'Specs: contact us. Available for demonstration at Kirti Nagar facility.',
+            },
+            applications: ['Retail Window Graphics', 'Exhibition Displays', 'Custom Wall Coverings', 'Point of Sale (POS) Signage'],
+            isPopular: true
+          },
+          {
+            id: 'mimaki-ucjv330-160',
+            name: 'Mimaki UCJV330-160',
+            series: 'UCJV Series',
+            brand: 'Mimaki',
+            imageUrl: '/assets/products/mimaki/mimaki-ucjv330-160.png',
+            imagePng: '/assets/products/mimaki/mimaki-ucjv330-160.png',
+            imageAlt: 'Mimaki UCJV330-160 Flagship UV Print & Cut with 2.5D Texture',
+            imageCaption: 'Mimaki UCJV330-160',
+            driveFileName: 'mimaki-ucjv330-160.png',
+            shortDescription: 'Flagship industrial UV LED print-and-cut machine with 2.5D texture printing and 5-layer capabilities.',
+            description: 'High-end integrated print-and-cut workhorse featuring up to 5-layer printing for day/night backlit transitions, window double-sided graphics, and tactile embossed textures.',
+            features: ['High-precision contour cutting integrated', '5-layer day/night backlit printing', '2.5D textured tactile embossing', 'Clear varnish and white ink support'],
+            specs: {
+              technicalDetails: 'Specs: contact us. Call +91 99999 36706 for sample kit & demo.',
+            },
+            applications: ['Day/Night Backlit Signage', 'Tactile Textured Labels', 'Window Film Decals', 'Vehicle Wraps']
+          },
+          {
+            id: 'mimaki-ucjv300-160',
+            name: 'Mimaki UCJV300-160',
+            series: 'UCJV Series',
+            brand: 'Mimaki',
+            imageUrl: '/assets/products/mimaki/mimaki-ucjv300-160.png',
+            imagePng: '/assets/products/mimaki/mimaki-ucjv300-160.png',
+            imageAlt: 'Mimaki UCJV300-160 Versatile UV Roll Print & Cut',
+            imageCaption: 'Mimaki UCJV300-160',
+            driveFileName: 'mimaki-ucjv300-160.png',
+            shortDescription: 'Versatile 1.6m UV LED roll print-and-cut printer for custom signage and shaped decals.',
+            description: 'Instant-dry UV LED printing combined with high-accuracy cutting for on-demand sign production, fleet lettering, and custom display stickers.',
+            features: ['1,610 mm print & cut width', 'Continuous register mark detection', 'White ink high-opacity undercoating', 'Greenguard Gold certified UV inks'],
+            specs: {
+              technicalDetails: 'Specs: contact us.',
+            },
+            applications: ['Contour Cut Signage', 'Stickers & Decals', 'Retail Display Graphics']
           }
         ]
       },
@@ -49,27 +120,80 @@ export const PRINTER_CATALOGUE = [
         description: 'Direct-to-rigid printing on acrylic, ACP, glass, wood, metal sheets, and composite sign panels with multi-zone vacuum suction.',
         models: [
           {
-            id: 'uv-flatbed-2513',
-            name: 'Industrial UV Flatbed 2513 (8x4 ft)',
-            shortDescription: 'Industry standard 2500 x 1300 mm rigid substrate flatbed printing machine.',
-            description: 'Direct-to-rigid printing on acrylic, MDF, foam PVC, glass, ACP, metal sheets, and ceramic tiles with vacuum zoned bed and automated pin registration.',
-            features: ['Multi-zone vacuum suction table', 'Automatic media thickness detector', 'White + Varnish gloss embossing capabilities', 'Specs: contact us'],
+            id: 'mimaki-jfx600-2513',
+            name: 'Mimaki JFX600-2513',
+            series: 'JFX Series',
+            brand: 'Mimaki',
+            imageUrl: '/assets/products/mimaki/mimaki-jfx600-2513.png',
+            imagePng: '/assets/products/mimaki/mimaki-jfx600-2513.png',
+            imageAlt: 'Mimaki JFX600-2513 16-Head Ultra High-Speed UV Flatbed',
+            imageCaption: 'Mimaki JFX600-2513',
+            driveFileName: 'mimaki-jfx600-2513.png',
+            shortDescription: '16-head ultra high-speed 2,500 x 1,300 mm (8x4 ft) industrial UV flatbed reaching speeds up to 200 m²/hr.',
+            description: 'Industrial-grade heavy duty UV flatbed engineered for extreme productivity. Prints directly on acrylic, ACP, glass, wood, composite aluminum, and architectural panels with 16 staggered printheads.',
+            features: ['2,500 x 1,300 mm (8x4 ft) bed size', '16 staggered print heads for up to 200 m²/hr', '2.5D texture printing engine', 'Multi-zone independent vacuum control'],
             specs: {
-              technicalDetails: 'Specs: contact us. Custom configurations available for heavy sheet handling in Kirti Nagar facility.',
+              technicalDetails: 'Specs: contact us. Industrial power & floor plan layouts available.',
+            },
+            applications: ['High-Volume Architectural Signage', 'ACP Cladding Graphics', 'Exhibition Panels', 'Interior Acrylic Walls'],
+            isPopular: true
+          },
+          {
+            id: 'mimaki-jfx600-2531',
+            aliases: ['uv-flatbed-2030'],
+            name: 'Mimaki JFX600-2531',
+            series: 'JFX Series',
+            brand: 'Mimaki',
+            imageUrl: '/assets/products/mimaki/mimaki-jfx600-2531.png',
+            imagePng: '/assets/products/mimaki/mimaki-jfx600-2531.png',
+            imageAlt: 'Mimaki JFX600-2531 Super-Wide 2.5m x 3.1m Industrial UV Flatbed',
+            imageCaption: 'Mimaki JFX600-2531',
+            driveFileName: 'mimaki-jfx600-2531.png',
+            shortDescription: 'Extra-large 2,500 x 3,100 mm (8x10 ft) industrial flatbed for massive rigid signage and architectural facades.',
+            description: 'Allows loading two standard 8x4 ft boards simultaneously with independent dual vacuum zones for continuous non-stop alternate board production.',
+            features: ['Massive 2,500 x 3,100 mm (8x10 ft) printable area', 'Simultaneous dual-origin printing (two 8x4 ft boards)', 'Up to 200 m²/hr peak industrial speed', 'Heavy payload table handling up to 50 kg/m²'],
+            specs: {
+              technicalDetails: 'Specs: contact us for factory floor plans and quotation.',
+            },
+            applications: ['Oversized Architectural Signage', 'Double-board High Speed Production', 'Wood & Tile Printing', 'Industrial Facades']
+          },
+          {
+            id: 'mimaki-jfx200-2513ex',
+            aliases: ['uv-flatbed-2513'],
+            name: 'Mimaki JFX200-2513 EX',
+            series: 'JFX Series',
+            brand: 'Mimaki',
+            imageUrl: '/assets/products/mimaki/mimaki-jfx200-2513ex.png',
+            imagePng: '/assets/products/mimaki/mimaki-jfx200-2513ex.png',
+            imageAlt: 'Mimaki JFX200-2513 EX Industry Standard 8x4 ft UV Flatbed',
+            imageCaption: 'Mimaki JFX200-2513 EX',
+            driveFileName: 'mimaki-jfx200-2513ex.png',
+            shortDescription: 'The benchmark 8x4 ft Japanese UV flatbed printer for sign & industrial display with 2.5D texture maker.',
+            description: 'Direct-to-rigid printing on acrylic, MDF, foam PVC, glass, ACP, metal sheets, and ceramic tiles with vacuum zoned bed, automated pin registration, and draft mode up to 35 sqm/hr.',
+            features: ['2,500 x 1,300 mm bed size', '2.5D Texture Maker for textured embossed prints', 'Foot pedal vacuum switch', 'White + Varnish gloss embossing capabilities'],
+            specs: {
+              technicalDetails: 'Specs: contact us. Best-seller in New Delhi sign industry.',
             },
             applications: ['Acrylic Brand Letters', 'ACP Cladding Graphics', 'Glass Door Decals', 'Exhibition Panels'],
             isPopular: true
           },
           {
-            id: 'uv-flatbed-2030',
-            name: 'Large Format UV Flatbed 2030',
-            shortDescription: 'Super-wide 2.0 x 3.0 m industrial flatbed for massive rigid sheet prints.',
-            description: 'High-payload flatbed engineered for direct industrial manufacturing on oversized wood, aluminum, corrugated boards, and composite sign panels.',
-            features: ['Heavy payload table rating', 'Linear magnetic drive options', 'Anti-crash printhead safety system', 'Specs: contact us'],
+            id: 'mimaki-jfx200-1213ex',
+            name: 'Mimaki JFX200-1213 EX',
+            series: 'JFX Series',
+            brand: 'Mimaki',
+            imageUrl: '/assets/products/mimaki/mimaki-jfx200-1213ex.png',
+            imagePng: '/assets/products/mimaki/mimaki-jfx200-1213ex.png',
+            imageAlt: 'Mimaki JFX200-1213 EX Compact 4x4 ft Industrial UV Flatbed',
+            imageCaption: 'Mimaki JFX200-1213 EX',
+            driveFileName: 'mimaki-jfx200-1213ex.png',
+            shortDescription: 'Compact 4x4 ft (1,200 x 1,300 mm) industrial flatbed for workshops with limited space.',
+            description: 'Provides the identical high-resolution print engine and 2.5D texture capability of the full-size JFX200 in a space-saving 4x4 ft form factor.',
+            features: ['1,200 x 1,300 mm compact footprint', 'Supports media up to 50 mm thickness', '2.5D textured embossing & clear gloss', 'Energy-efficient LED-UV curing'],
             specs: {
-              technicalDetails: 'Specs: contact us. Please request a quote for detailed factory power & footprint drawings.',
+              technicalDetails: 'Specs: contact us.',
             },
-            applications: ['Large Format Architectural Signage', 'Industrial Nameplates', 'Wood & Tile Printing']
+            applications: ['Custom Acrylic Awards & Trophies', 'Boutique Signage', 'Braille & ADA Signs', 'Prototype Packaging']
           }
         ]
       },
@@ -79,15 +203,23 @@ export const PRINTER_CATALOGUE = [
         description: 'Dual-purpose vacuum conveyor systems for fast changeovers between rigid boards and roll-to-roll media.',
         models: [
           {
-            id: 'uv-hybrid-3200',
-            name: 'Industrial UV Hybrid 3.2m (Roll & Flatbed)',
-            shortDescription: 'Versatile hybrid system with belt conveyor for both rigid boards and flexible rolls.',
-            description: 'Two-in-one industrial printing solution offering high throughput on both rigid sheets and rolls with fold-down front and rear extension tables.',
-            features: ['Seamless conveyor belt feed', 'Instant transition between rigid and roll media', 'High capacity bulk ink feed with degassing', 'Specs: contact us'],
+            id: 'mimaki-uj330h-160',
+            aliases: ['uv-hybrid-3200'],
+            name: 'Mimaki UJ330H-160',
+            series: 'UJ Series',
+            brand: 'Mimaki',
+            imageUrl: '/assets/products/mimaki/mimaki-uj330h-160.png',
+            imagePng: '/assets/products/mimaki/mimaki-uj330h-160.png',
+            imageAlt: 'Mimaki UJ330H-160 Industrial UV Hybrid Roll & Flatbed Conveyor Printer',
+            imageCaption: 'Mimaki UJ330H-160',
+            driveFileName: 'mimaki-uj330h-160.png',
+            shortDescription: 'Flagship 1.6m industrial UV LED hybrid machine with vacuum conveyor belt for rigid boards and roll media.',
+            description: 'Two-in-one industrial printing solution offering high throughput on both rigid sheets and rolls with fold-down front and rear extension tables, conveyor belt feed, and multi-layer UV printing.',
+            features: ['1,610 mm width conveyor vacuum belt system', 'Instant transition between rigid boards and roll media', '2.5D texture printing and white + clear inks', 'Front and rear foldable expansion tables for rigid sheets'],
             specs: {
               technicalDetails: 'Specs: contact us for throughput speeds, carriage configurations, and RIP software compatibility.',
             },
-            applications: ['Sign Manufacturing Facilities', 'Trade Print Shops', 'Multi-material Commercial Projects'],
+            applications: ['Sign Manufacturing Facilities', 'Trade Print Shops', 'Multi-material Commercial Projects', 'Rigid Board & Roll Dual Production'],
             isPopular: true
           }
         ]
@@ -1090,7 +1222,7 @@ export function getSubcategory(categoryId, subcategoryId) {
 export function getModel(categoryId, subcategoryId, modelId) {
   const sub = getSubcategory(categoryId, subcategoryId);
   if (!sub) return null;
-  return sub.models.find((m) => m.id === modelId) || null;
+  return sub.models.find((m) => m.id === modelId || m.aliases?.includes(modelId)) || null;
 }
 
 // Flat list of all models with their category and subcategory info attached
@@ -1117,7 +1249,7 @@ export function getAllModels() {
 export function findModelById(modelId) {
   for (const cat of PRINTER_CATALOGUE) {
     for (const sub of cat.subcategories) {
-      const match = sub.models.find((m) => m.id === modelId);
+      const match = sub.models.find((m) => m.id === modelId || m.aliases?.includes(modelId));
       if (match) {
         return {
           model: match,
