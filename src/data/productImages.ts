@@ -418,6 +418,17 @@ export const OFFICIAL_PRODUCT_IMAGES: ProductImageMeta[] = [
     description: 'Micro-filtered reactive digital dyes for pure silk, cotton, modal, and viscose fibers.',
     specsSummary: '16L Drum · Premium Reactive Dye · Cotton & Silk Natural Fibers',
   },
+  {
+    modelName: 'Label and Packaging Coming Soon',
+    brand: 'Vee Kay Enterprises',
+    fileName: 'coming-soon-packaging.png',
+    webpUrl: '/assets/products/coming-soon-packaging.png',
+    pngUrl: '/assets/products/coming-soon-packaging.png',
+    altText: 'Label & Packaging Machinery - Coming Soon',
+    caption: 'Coming Soon',
+    description: 'Specialized industrial packaging machinery catalog specifications and visual assets arriving shortly.',
+    specsSummary: 'Label & Packaging · Specifications Under Finalization',
+  },
 ];
 
 /**
@@ -547,6 +558,9 @@ export function getProductImage(input?: string): ProductImageMeta | null {
   }
   if (clean.includes('reactive digital') || clean.includes('reactive ink') || clean.includes('reactive dye')) {
     return OFFICIAL_PRODUCT_IMAGES.find(p => p.modelName.includes('Reactive Digital')) || null;
+  }
+  if (clean.includes('uv-dtf-packaging') || clean.includes('inkjet-label') || clean.includes('qr-code') || clean.includes('roll label') || clean.includes('qr code') || clean.includes('packaging')) {
+    return OFFICIAL_PRODUCT_IMAGES.find(p => p.modelName.includes('Label and Packaging')) || null;
   }
   if (clean.includes('ysr')) {
     return OFFICIAL_PRODUCT_IMAGES.find(p => p.modelName.includes('1816')) || null;

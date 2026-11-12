@@ -1055,6 +1055,12 @@ export const PRINTER_CATALOGUE = [
           {
             id: 'uv-dtf-packaging',
             name: 'Industrial UV DTF Printing Machine',
+            brand: 'Vee Kay Enterprises',
+            imageUrl: '/assets/products/coming-soon-packaging.png',
+            imagePng: '/assets/products/coming-soon-packaging.png',
+            imageAlt: 'Industrial UV DTF Printing Machine - Coming Soon',
+            imageCaption: 'Industrial UV DTF Printing Machine',
+            driveFileName: 'coming-soon-packaging.png',
             shortDescription: 'Roll-to-roll UV DTF printer with inline laminator for instant peel-and-stick labels.',
             description: 'Prints CMYK + White + Varnish onto film A, then automatically laminates with film B. The transfer can be applied to plastics, curved glassware, ceramics, and metal without heat press.',
             features: ['Integrated roll printer & heated laminator unit', 'Gloss varnish 3D relief finish', 'Waterproof, scratch-proof adhesion', 'Specs: contact us'],
@@ -1074,6 +1080,12 @@ export const PRINTER_CATALOGUE = [
           {
             id: 'inkjet-label-printer',
             name: 'Digital Inkjet Roll Label Printer',
+            brand: 'Vee Kay Enterprises',
+            imageUrl: '/assets/products/coming-soon-packaging.png',
+            imagePng: '/assets/products/coming-soon-packaging.png',
+            imageAlt: 'Digital Inkjet Roll Label Printer - Coming Soon',
+            imageCaption: 'Digital Inkjet Roll Label Printer',
+            driveFileName: 'coming-soon-packaging.png',
             shortDescription: 'Roll-to-roll high-resolution color inkjet printer for short-to-medium label runs.',
             description: 'Direct roll label printer ideal for pharmaceutical, cosmetics, specialty foods, and chemical packaging labels with variable data printing.',
             features: ['Roll-to-roll continuous label feeding', 'Variable data and batch serialization', 'Fast-drying pigment ink chemistry', 'Specs: contact us'],
@@ -1092,6 +1104,12 @@ export const PRINTER_CATALOGUE = [
           {
             id: 'qr-code-printer',
             name: 'High Speed Industrial QR Code Printer',
+            brand: 'Vee Kay Enterprises',
+            imageUrl: '/assets/products/coming-soon-packaging.png',
+            imagePng: '/assets/products/coming-soon-packaging.png',
+            imageAlt: 'High Speed Industrial QR Code Printer - Coming Soon',
+            imageCaption: 'High Speed Industrial QR Code Printer',
+            driveFileName: 'coming-soon-packaging.png',
             shortDescription: 'Serialized variable data inkjet printer for QR codes, barcodes, and MRP markings.',
             description: 'High-speed inkjet coding machine designed for printing high-contrast, scannable QR codes, trace-and-track codes, and expiry dates on labels, cartons, and blister packs.',
             features: ['High-speed variable QR code generation', 'Micro-character printing capability', 'Inline conveyor integration options', 'Specs: contact us'],
@@ -1101,12 +1119,6 @@ export const PRINTER_CATALOGUE = [
             applications: ['Pharmaceutical Anti-counterfeiting QR', 'Food Batch & Expiry Coding', 'Warehouse Inventory Barcodes']
           }
         ]
-      },
-      {
-        id: 'carton-packaging',
-        name: 'Corrugated & Rigid Box Printers',
-        description: 'Single-pass direct printing solutions for folding cartons and corrugated packaging mockups.',
-        models: [] // Intentionally empty to fulfill requirement: "Subcategories with no models show 'Models available on request' with a quote button"
       }
     ]
   },
