@@ -1017,6 +1017,10 @@ export const PRINTER_CATALOGUE = [
           {
             id: 'uv-curable-inks-industrial',
             name: 'Vee Kay Industrial LED UV Curable Inks',
+            imageUrl: '/assets/products/coming-soon-packaging.png',
+            imagePng: '/assets/products/coming-soon-packaging.png',
+            imageAlt: 'UV Curable Inks - Coming Soon',
+            imageCaption: 'Vee Kay Industrial LED UV Curable Inks',
             shortDescription: 'Universal flexible and hard LED UV curable ink formulation with high scratch resistance.',
             description: 'Formulated for Ricoh Gen5/Gen6, Konica Minolta, and Toshiba heads with excellent adhesion to acrylic, glass, metal, and PVC.',
             features: ['Instant curing under LED UV lamps', 'Flexible options for roll media, rigid for boards', 'High opacity dense white ink', 'Specs: contact us'],
@@ -1058,6 +1062,10 @@ export const PRINTER_CATALOGUE = [
           {
             id: 'cleaning-flushing-solutions',
             name: 'Industrial Printhead Flush & Maintenance Fluids',
+            imageUrl: '/assets/products/coming-soon-packaging.png',
+            imagePng: '/assets/products/coming-soon-packaging.png',
+            imageAlt: 'Flushing & Maintenance Solutions - Coming Soon',
+            imageCaption: 'Flushing & Maintenance Solutions',
             shortDescription: 'Specialized chemical flushing solutions to preserve printhead longevity.',
             description: 'Formulated to safely dissolve dried UV, eco-solvent, or sublimation pigment residues without degrading head piezo elements or nozzle plate coatings.',
             features: ['Compatible with all major printhead brands', 'Safe storage fluid for long machine standbys', 'Specs: contact us'],
