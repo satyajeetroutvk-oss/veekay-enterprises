@@ -1,0 +1,137 @@
+@import "tailwindcss";
+
+/* Official Self-Hosted Web Font for Monotype Corsiva / Chancery */
+@font-face {
+  font-family: 'Monotype Corsiva';
+  src: url('/fonts/MonotypeCorsiva.woff2') format('woff2'),
+       url('/fonts/MonotypeCorsiva.otf') format('opentype');
+  font-weight: 400 700;
+  font-style: normal, italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'URW Chancery L';
+  src: url('/fonts/MonotypeCorsiva.woff2') format('woff2'),
+       url('/fonts/MonotypeCorsiva.otf') format('opentype');
+  font-weight: 400 700;
+  font-style: normal, italic;
+  font-display: swap;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Plus Jakarta Sans', 'Noto Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+}
+
+.font-brand {
+  font-family: "Monotype Corsiva", "URW Chancery L", "Apple Chancery", cursive;
+  font-style: italic;
+}
+
+.font-indic-devanagari {
+  font-family: 'Noto Sans Devanagari', 'Noto Sans', sans-serif;
+}
+
+.font-indic-gujarati {
+  font-family: 'Noto Sans Gujarati', 'Noto Sans', sans-serif;
+}
+
+.font-indic-gurmukhi {
+  font-family: 'Noto Sans Gurmukhi', 'Noto Sans', sans-serif;
+}
+
+.font-indic-bengali {
+  font-family: 'Noto Sans Bengali', 'Noto Sans', sans-serif;
+}
+
+.font-indic-kannada {
+  font-family: 'Noto Sans Kannada', 'Noto Sans', sans-serif;
+}
+
+/* Hero Sequential Pop-Up Keyframes (translateY + scale with slight overshoot) */
+@keyframes heroPopUp {
+  0% {
+    opacity: 0;
+    transform: translateY(26px) scale(0.96);
+  }
+  70% {
+    opacity: 1;
+    transform: translateY(-4px) scale(1.018);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.animate-hero-pop {
+  animation: heroPopUp 0.65s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+/* Machine 3D Pop-Up and Floating Animation */
+@keyframes machinePopUp {
+  0% {
+    opacity: 0;
+    transform: translateY(32px) scale(0.88);
+  }
+  60% {
+    opacity: 1;
+    transform: translateY(-8px) scale(1.03);
+  }
+  85% {
+    transform: translateY(2px) scale(0.99);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes machineFloat {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes shadowPulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.65;
+  }
+  50% {
+    transform: scale(0.9);
+    opacity: 0.35;
+  }
+}
+
+.animate-machine-pop {
+  animation: machinePopUp 0.75s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.animate-machine-float {
+  animation: machineFloat 4s ease-in-out infinite;
+}
+
+.animate-shadow-pulse {
+  animation: shadowPulse 4s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-hero-pop,
+  .animate-machine-pop,
+  .animate-machine-float,
+  .animate-shadow-pulse {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+  .transition-transform {
+    transition-duration: 0.01ms !important;
+  }
+}

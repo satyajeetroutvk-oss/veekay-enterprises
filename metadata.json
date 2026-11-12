@@ -1,0 +1,6 @@
+{
+  "name": "Vee Kay Enterprises - Industrial Printer Supplier",
+  "description": "B2B industrial printer supplier and wholesale distributor operating since 1990 from Kirti Nagar, New Delhi. Supplying Mimaki, textile sublimation, UV flatbed, and packaging printers across India.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
